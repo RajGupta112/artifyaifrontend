@@ -4,8 +4,8 @@ const Home:React.FC = () => {
   return (
     <div
    
-     className="min-h-screen  flex justify-center relative bg-[url('/hero.png')]
- bg-cover bg-center text-center relative  ">
+     className="min-h-screen  flex justify-center relative 
+ bg-cover bg-center text-center relative bg-[url('/hero.png')] ">
       <motion.div className='my-40 ' initial={{y:100,opacity:0}}
     animate={{y:0,opacity:1}} 
     transition={{duration:0.8,ease:"easeOut"}} >
