@@ -20,11 +20,12 @@ function App() {
   
       
      
-   <div   >
+   <div  className='bg-gray-200' >
     <Routes>
       <Route path='/'  element={<>
           <Home />
           <Features />
+          <Gallery/>
         </>}/>
       <Route path='/create' element={<Create/>}/>
       <Route path='/features' element={<Features/>}/>
