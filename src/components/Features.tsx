@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaEye } from 'react-icons/fa';
 import { BsStars } from 'react-icons/bs';
 import { CgStyle } from 'react-icons/cg';
